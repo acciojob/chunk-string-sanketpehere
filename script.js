@@ -1,5 +1,6 @@
 function stringChop(str, size) {
 
+  size = Number(size);   // convert input to number
   if (size <= 0) return [];
 
   const result = [];
